@@ -15,7 +15,13 @@ function App() {
     <div className="min-w-screen min-h-screen  text-black">
       <Navbar />
       <Line/>
-      <Card image={Logo} heading="Scalable solutions :" content ="Whether you're a small business or an enterprise, our platform grows with your  needs."/>
+      <div className='h-full w-screen bg-sky-100 flex justify-center'>
+
+        <Card image={Logo} heading="Scalable solutions :" content ="Whether you're a small business or an enterprise, our platform grows with your  needs."/>
+        <Card image={Logo} heading="Scalable solutions :" content ="Whether you're a small business or an enterprise, our platform grows with your  needs."/>
+
+      </div>
+      <Line/>
     </div>
     </>
   )
