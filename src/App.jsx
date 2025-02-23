@@ -5,6 +5,7 @@ import Navbar from './components/navbar'
 import Line from './components/Line'
 import Card from './components/Card'
 import Logo from './assets/sample.webp'
+import Footer from './components/Footer'
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
 
       </div>
       <Line/>
+      <Footer/>
     </div>
     </>
   )
