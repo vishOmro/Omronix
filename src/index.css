@@ -13,3 +13,10 @@ body {
     --color-mid-blue: rgba(203, 233, 244, 0.75);
     --color-red: red;
 }
+
+input {
+    padding: 8px 15px;
+    background-color: #FFFF;
+    border-radius: 10px;
+    outline: none;
+}
