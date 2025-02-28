@@ -1,14 +1,26 @@
+import AboutUsSection from "../components/HomePageComponent/AboutUsSection"
+import HeroSection from "../components/HomePageComponent/heroSection"
+import KeyValueProposition from "../components/HomePageComponent/keyValueProposition"
 import Navbar from "../components/navbar"
-import Card from "../components/Card"
-import Logo from "../assets/sample.webp"
+import Product from "../components/HomePageComponent/Product"
+import ProductSnapShot from "../components/HomePageComponent/ProductSnapShot"
+// import Card from "../components/Card"
+// import Logo from "../assets/sample.webp"
 
 const Home = () => {
   return (
-    <div className="min-w-screen min-h-screen  text-black">
+    <>
     <Navbar />
+    <div className="w-full min-h-screen  text-black bg-background-blue">
+    <HeroSection />
+    <AboutUsSection />
+    <KeyValueProposition />
+    <ProductSnapShot />
+    <Product />
 
-    <Card image={Logo} heading="Scalable solutions :" content ="Whether you're a small business or an enterprise, our platform grows with your  needs."/>
+  
   </div>
+  </>
   )
 }
 

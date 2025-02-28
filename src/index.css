@@ -6,12 +6,13 @@ body {
     width: 100%;
     height: 100%;
     box-sizing: border-box;
-    background-color: rgba(198, 231, 255, 0.18);
 }
 
 @theme {
     --color-mid-blue: rgba(203, 233, 244, 0.75);
     --color-red: red;
+    --color-background-blue: rgba(198, 231, 255, 0.18);
+    --color-textColor: #726363;
 }
 
 input {
