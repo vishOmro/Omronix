@@ -6,7 +6,7 @@ const Navbar = () => {
     <div className="w-full h-20 bg-mid-blue flex justify-around align-middle items-center rounded-b-2xl sticky z-50">
         <div className="logo font-bold flex h-8 justify-center items-center">
             <img src={Logo} alt="" className="w-30"/>
-            <h2 className="relative right-5">OMROXIN</h2>
+            <h2 className="relative right-5">OMRONIX</h2>
         </div>
         <div className="taskList flex text-md justify-around items-center gap-8 list-none font-semibold">
             <a href="/">
