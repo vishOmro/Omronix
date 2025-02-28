@@ -1,10 +1,11 @@
-import Navbar from "../components/navbar"
+
 import contactImage from "../assets/contactus.png"
 import ContactDropdown from "../components/contactDropdown"
+
 const ContactUs = () => {
   return (
     <div>
-        <Navbar />
+=
         <div className="contact_container w-full gap-10 flex justify-center items-center align-middle rounded-b-2xl ">
             <div className="contact_left w-full p-10 ">
                 <h1 className="text-xl font-bold">Contact Us</h1>
@@ -60,7 +61,8 @@ const ContactUs = () => {
             <div className="contact_right w-full">
                 <img src={contactImage} alt="" />
             </div>
-        </div>
+        </div> 
+
     </div>
   )
 }

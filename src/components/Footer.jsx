@@ -1,4 +1,4 @@
-import React from 'react'
+
 import Logo from "../assets/Omronix_logo.jpg";
 import Insta from "../assets/Insta.png"
 import Facebook from "../assets/facebook.png"
@@ -10,7 +10,7 @@ function Footer() {
   return (
     <>
     
-    <div className='h-full w-full bg-black text-white flex justify-center gap-5'>
+    <div className='h-full w-full bg-black text-indigo-100 flex justify-center gap-5'>
         <div className='w-1/3 flex justify-around gap-12 mt-8'>
             <div className='flex-col h-80 p-5 '>
                 <img src={Logo} alt="Logo" className='size-30' />
@@ -23,7 +23,7 @@ function Footer() {
                 
 
             </div>
-            <div className='mt-5 font-bold'>
+            <div className='mt-2 '>
                     USA
                     <br /><br />
                     Head Office :
@@ -41,7 +41,7 @@ function Footer() {
                 
                 </div>
         </div>
-        <div className='flex justify-around font-bold mt-6 gap-6 p-3 w-1/2'>
+        <div className='flex justify-around  mt-6 gap-6 p-3 w-1/2'>
             <div>
                 <ul className='flex flex-col gap-5'>
                     <li>Home</li>
@@ -57,13 +57,13 @@ function Footer() {
                 </ul>
             </div>
             <div className='h-full w-50'>
-                    <p>
+                    <p className="leading-8">
                     Subscribe to our newsletter to receive the latest updates in CPaaS technology and industry insights.
                     </p>
             </div>
         </div>
     </div>
-        <div className='h-full w-full bg-black text-white flex justify-center font-bold m-0 p-0'>
+        <div className='h-full w-full bg-black pb-4 text-indigo-100 flex justify-center'>
             © 2025 Omronix. All rights reserved.
         </div>
     </>

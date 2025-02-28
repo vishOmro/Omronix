@@ -1,5 +1,6 @@
 import productData from "../../Data/product.data.json";
 
+
 const ProductsDetail = () => {
   return (
     <div className={'w-full flex flex-col items-center gap-1'}>
@@ -18,8 +19,8 @@ const ProductsDetail = () => {
                 ))}
               </ul>
             </div>
-            <div className="right w-full bg-blue relative flex justify-center">
-              <img src="../../assets/aboutUsSection.png" alt="About Us" className="w-96" />
+            <div className="right w-full bg-blue relative flex justify-center mt-5">
+              <img src={product.imgUrl} alt="About Us" className="w-96" />
             </div>
           </div>
 
