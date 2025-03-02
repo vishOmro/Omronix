@@ -5,37 +5,36 @@ import ContactDropdown from "../components/contactDropdown"
 const ContactUs = () => {
   return (
     <div>
-=
-        <div className="contact_container w-full gap-10 flex justify-center items-center align-middle rounded-b-2xl ">
-            <div className="contact_left w-full p-10 ">
-                <h1 className="text-xl font-bold">Contact Us</h1>
-                <form action="" className="mt-5 text-md">
-                    <div className="name_container flex gap-15">
+        <div className="contact_container w-full gap-10 flex justify-center items-center align-middle rounded-b-2xl bg-light-blue ">
+            <div className="contact_left w-full md:p-10 p-5">
+                <h1 className=" text-lg md:text-xl font-bold">Contact Us</h1>
+                <form action="" className="mt-5 text-sm md:text-base">
+                    <div className="name_container flex md:gap-15 gap-2 flex-wrap md:flex-nowrap">
                         <div className="input_container flex flex-col gap-2"> 
                         <h3 className="font-semibold">First Name</h3>
-                        <input type="text" name="" id="" placeholder="eg: John" className="w-75" />
+                        <input type="text" name="" id="" placeholder="eg: John" className="md:w-75 w-64 border-gray-400 border-1 " />
                         </div>
                         <div className="input_container flex flex-col gap-2"> 
                         <h3 className="font-semibold text-sm">Last Name</h3>
-                        <input type="text" name="" id="" placeholder="eg: Doe" className="w-75 text-sm" />
+                        <input type="text" name="" id="" placeholder="eg: Doe" className="md:w-75 w-64 border-1 border-gray-400 text-sm" />
                         </div>
                     
                     </div>
 
                     <div className="input_container flex flex-col gap-2 mt-4"> 
                         <h3 className="font-semibold">Email Address</h3>
-                        <input type="text" name="" id="" placeholder="eg: email@janesfakedomain.net" className="mr-20 text-sm" />
+                        <input type="text" name="" id="" placeholder="eg: email@janesfakedomain.net" className="md:w-75 w-64 border-1 border-gray-400 mr-20 text-sm" />
                         </div>
 
                         <div className="input_container flex flex-col gap-2 mt-4"> 
                         <h3 className="font-semibold">Company Name</h3>
-                        <input type="text" name="" id="" placeholder="eg: omronix" className="mr-20 text-sm" />
+                        <input type="text" name="" id="" placeholder="eg: omronix" className=" md:w-75 w-64 border-1 border-gray-400 mr-20 text-sm" />
                         </div>
 
 
                         <div className="input_container flex flex-col gap-2 mt-4"> 
                         <h3 className="font-semibold">Product Of Intrest</h3>
-                        <input type="text" name="" id="" placeholder="SMS Services" className="mr-20 text-sm" />
+                        <input type="text" name="" id="" placeholder="SMS Services" className="md:w-75 w-64 border-1 border-gray-400 mr-20 text-sm" />
                         </div>
 
 
@@ -46,7 +45,7 @@ const ContactUs = () => {
 
                         <div className="input_container flex flex-col gap-2 mt-4"> 
                         <h3 className="font-semibold">Remark</h3>
-                        <input type="text" name="" id="" placeholder="How can we help you?" className="mr-20 text-sm" />
+                        <input type="text" name="" id="" placeholder="How can we help you?" className="md:w-75 w-64 border-1 border-gray-400 mr-20 text-sm" />
                         </div>
 
                         <div className="gap-2 mt-4 bg-black text-white w-fit px-15 py-2 rounded-xl cursor-pointer">
@@ -58,7 +57,7 @@ const ContactUs = () => {
                        
                 </form>
             </div>
-            <div className="contact_right w-full">
+            <div className="contact_right w-full md:block hidden">
                 <img src={contactImage} alt="" />
             </div>
         </div> 
