@@ -25,6 +25,7 @@
         },
         "benefits": {
             "title": "Benefits & Features",
+            "imgUrl" :"/ProductImage/1.png",
             "content": [
                 {
                     "benetitle": "Personalization",
@@ -48,6 +49,8 @@
     {
         "title": "Voice Services",
         "overview": "Experience the power of voice communication with solutions that make every call count. Our voice services enhance customer interactions through clarity, efficiency, and intelligence.",
+        "imgUrl":"/ProductImage/5.webp",
+        
         "desc": {
             "line": [
                 {
@@ -66,6 +69,7 @@
         },
         "benefits": {
             "title": "Benefits & Features",
+            "imgUrl":"/ProductImage/5.webp",
             "content": [
                 {
                     "benetitle": "Multilingual Support",
@@ -89,6 +93,8 @@
     {
         "title": "Email Solutions",
         "overview": "Build lasting relationships with your customers through clear, effective, and personalized email communications. Our email solutions cover both transactional and promotional needs.",
+        "imgUrl":"/ProductImage/2.png",
+        
         "desc": {
             "line": [
                 {
@@ -126,6 +132,7 @@
     {
         "title": "WhatsApp Business API",
         "overview": "Leverage the world’s most popular messaging app for business communication. Our WhatsApp Business API transforms your contact number into a dynamic business tool.",
+        "imgUrl":"/ProductImage/9.jpeg",
         "desc": {
             "line": [
                 {
@@ -167,6 +174,7 @@
     {
         "title": "Customer Engagement",
         "overview": "Maximize customer interactions with our AI-driven marketing automation solution. Omronix Customer Engagement is designed to analyze customer behavior and deliver the right message at the right time.",
+        "imgUrl":"/ProductImage/1.png",
         "desc": {
             "line": [
                 {
@@ -189,6 +197,7 @@
         },
         "benefits": {
             "title": "Benefits & Features",
+            "benefitImgUrl": "/ProductImage/1.png",
             "content": [
                 {
                     "benetitle": "Enhanced Lead Generation",

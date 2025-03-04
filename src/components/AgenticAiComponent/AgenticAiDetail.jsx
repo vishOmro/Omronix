@@ -1,4 +1,4 @@
-import productData from "../../Data/blockchain.data.json";
+import productData from "../../Data/agenticAi.data.json";
 
 
 const ProductsDetail = () => {

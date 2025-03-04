@@ -26,7 +26,7 @@ const WhyOmronix = () => {
                 
              </div>
               <div className="right w-full bg-blue relative flex justify-center">
-                         <img src="" alt="WhyOmronix"  className="md:w-96 w-72  mt-4 md:mt-0"/>
+                         <img src="/ProductImage/whyus.webp" alt="WhyOmronix"  className="md:w-96 w-72  mt-4 md:mt-0"/>
                      </div>
          </div>
   )

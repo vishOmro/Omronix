@@ -1,4 +1,5 @@
 import productData from "../../Data/product.data.json";
+//import productData from "../../Data/agenticAi.json"
 
 
 const ProductsDetail = () => {
