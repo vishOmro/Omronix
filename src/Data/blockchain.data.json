@@ -1,82 +1,193 @@
-{
-    "SMSsol": {
-        "title": "SMS Solutions",
-        "CustomAI": [
-            {
-                "imgUrl": "",
-                "title": "AI-Powered Personalization",
-                "content": "Enhance customer experiences with AI-driven personalization, leveraging advanced algorithms to tailor content and interactions in real time."
-            },
-            {
-                "imgUrl": "",
-                "title": "Hyper-Personalized Recommendations",
-                "content": "Enhance customer experiences with AI-driven personalization, leveraging advanced algorithms to tailor content and interactions in real time."
-            },
-            {
-                "imgUrl": "",
-                "title": "Real-Time Adaptation",
-                "content": "AI adapts to customer needs in real time, ensuring that every interaction feels tailored and relevant."
-            }
-        ]
+[
+    {
+        "title": "Blockchain Security",
+        "overview": "Enhance security with decentralized, tamper-proof data storage and cryptographic encryption, reducing the risk of fraud and cyber threats.",
+        "imgUrl": "/BlockchainImage/1.jpg",
+        "benifitImgUrl": "/BlockchainImage/2.jpg",
+        "desc": {
+            "line": [
+                {
+                    "desctitle": "Decentralized Data Protection",
+                    "desc": "Eliminate single points of failure by distributing data across secure nodes, ensuring data integrity and resistance to cyber attacks."
+                },
+                {
+                    "desctitle": "Immutable Ledger",
+                    "desc": "Maintain transparency and trust with a blockchain ledger that prevents unauthorized data modifications."
+                },
+                {
+                    "desctitle": "Smart Contract Security",
+                    "desc": "Utilize self-executing contracts with built-in security protocols to automate and secure transactions."
+                }
+            ]
+        },
+        "benefits": {
+            "title": "Benefits & Features",
+            "content": [
+                {
+                    "benetitle": "Enhanced Trust",
+                    "desc": "Ensure transparency and reliability in business transactions with an immutable record system."
+                },
+                {
+                    "benetitle": "Reduced Fraud",
+                    "desc": "Prevent unauthorized alterations and enhance security with cryptographic hashing."
+                },
+                {
+                    "benetitle": "Scalability",
+                    "desc": "Handle growing transaction volumes with optimized blockchain infrastructure."
+                }
+            ]
+        }
     },
-    "Voice": {
-        "title": "Voice Services",
-        "CustomAI": [
-            {
-                "imgUrl": "",
-                "title": "AI-Powered Personalization",
-                "content": "Enhance customer experiences with AI-driven personalization, leveraging advanced algorithms to tailor content and interactions in real time."
-            },
-            {
-                "imgUrl": "",
-                "title": "Hyper-Personalized Recommendations",
-                "content": "Enhance customer experiences with AI-driven personalization, leveraging advanced algorithms to tailor content and interactions in real time."
-            },
-            {
-                "imgUrl": "",
-                "title": "Real-Time Adaptation",
-                "content": "AI adapts to customer needs in real time, ensuring that every interaction feels tailored and relevant."
-            }
-        ]
+    {
+        "title": "Supply Chain Transparency",
+        "overview": "Leverage blockchain to track and verify every step of your supply chain, ensuring authenticity, reducing inefficiencies, and enhancing visibility.",
+        "imgUrl": "/BlockchainImage/3.jpg",
+        "desc": {
+            "line": [
+                {
+                    "desctitle": "Real-Time Tracking",
+                    "desc": "Monitor goods from production to delivery with an unalterable digital record."
+                },
+                {
+                    "desctitle": "Fraud Prevention",
+                    "desc": "Eliminate counterfeit products by verifying the authenticity of goods through blockchain records."
+                },
+                {
+                    "desctitle": "Automated Compliance",
+                    "desc": "Ensure regulatory adherence with smart contracts that automatically enforce compliance rules."
+                }
+            ]
+        },
+        "benefits": {
+            "title": "Benefits & Features",
+            "content": [
+                {
+                    "benetitle": "Operational Efficiency",
+                    "desc": "Reduce paperwork and streamline logistics with blockchain automation."
+                },
+                {
+                    "benetitle": "Consumer Trust",
+                    "desc": "Provide customers with verified information on product sourcing and handling."
+                },
+                {
+                    "benetitle": "End-to-End Visibility",
+                    "desc": "Gain complete transparency into your supply chain to optimize operations."
+                }
+            ]
+        }
     },
-    "Email": {
-        "title": "Email Solutions",
-        "AIPowered": [
-            {
-                "imgUrl": "",
-                "title": "Automated Workflow Management",
-                "content": "Streamline business operations with Agentic AI’s workflow automation, improving efficiency and reducing operational costs."
-            },
-            {
-                "imgUrl": "",
-                "title": "Task Automation",
-                "content": "Use AI to automate routine tasks, improving productivity and minimizing human error."
-            },
-            {
-                "imgUrl": "",
-                "title": "Process Optimization",
-                "content": "AI-driven algorithms continuously optimize workflows, ensuring that processes are always running at peak efficiency."
-            }
-        ]
+    {
+        "title": "Financial Transactions",
+        "overview": "Revolutionize payments and financial transactions with blockchain's secure, fast, and cost-effective technology.",
+        "imgUrl":"/ProductImage/14.jpeg",
+        "desc": {
+            "line": [
+                {
+                    "desctitle": "Instant Cross-Border Payments",
+                    "desc": "Eliminate intermediaries and process transactions in real time with reduced fees."
+                },
+                {
+                    "desctitle": "Smart Payment Automation",
+                    "desc": "Use smart contracts to enable automated payments with predefined conditions."
+                },
+                {
+                    "desctitle": "Decentralized Finance (DeFi)",
+                    "desc": "Enable lending, borrowing, and trading of digital assets without intermediaries."
+                }
+            ]
+        },
+        "benefits": {
+            "title": "Benefits & Features",
+            "content": [
+                {
+                    "benetitle": "Cost Reduction",
+                    "desc": "Lower transaction fees by eliminating middlemen and banking overheads."
+                },
+                {
+                    "benetitle": "24/7 Transactions",
+                    "desc": "Conduct financial operations anytime, anywhere, without bank restrictions."
+                },
+                {
+                    "benetitle": "Enhanced Security",
+                    "desc": "Ensure fraud-proof payments with blockchain encryption and validation mechanisms."
+                }
+            ]
+        }
     },
-    "Whatsapp": {
-        "title": "Whatsapp Bussiness API",
-        "AutomatedAI": [
-            {
-                "imgUrl": "",
-                "title": "Real-Time Monitoring",
-                "content": "Monitor workflows in real time and make immediate adjustments based on performance data."
-            },
-            {
-                "imgUrl": "",
-                "title": "Customer Support Automation",
-                "content": "Enhance customer support with AI-powered chatbots and virtual assistants that provide 24/7 service, reducing response times and improving satisfaction."
-            },
-            {
-                "imgUrl": "",
-                "title": "Multichannel Support",
-                "content": "Provide consistent support across multiple channels including web, mobile, and social media platforms."
-            }
-        ]
+    {
+        "title": "Identity Verification",
+        "overview": "Strengthen digital identity security with blockchain-based authentication solutions that protect user data and prevent identity fraud.",
+        "imgUrl":"/ProductImage/15.jpeg",
+        "desc": {
+            "line": [
+                {
+                    "desctitle": "Self-Sovereign Identity (SSI)",
+                    "desc": "Give users full control over their digital identity, reducing dependence on centralized databases."
+                },
+                {
+                    "desctitle": "Biometric Verification",
+                    "desc": "Enhance security with blockchain-backed facial recognition, fingerprint scanning, and iris authentication."
+                },
+                {
+                    "desctitle": "Secure Credential Management",
+                    "desc": "Store and share verified credentials securely using blockchain technology."
+                }
+            ]
+        },
+        "benefits": {
+            "title": "Benefits & Features",
+            "content": [
+                {
+                    "benetitle": "Privacy Protection",
+                    "desc": "Minimize risks of data breaches with decentralized identity storage."
+                },
+                {
+                    "benetitle": "Fraud Prevention",
+                    "desc": "Eliminate identity theft with secure authentication mechanisms."
+                },
+                {
+                    "benetitle": "Seamless Verification",
+                    "desc": "Enable instant authentication across multiple platforms with blockchain integration."
+                }
+            ]
+        }
+    },
+    {
+        "title": "Healthcare Data Management",
+        "overview": "Transform healthcare data security and accessibility with blockchain, ensuring data integrity and patient privacy.",
+        "imgUrl":"/ProductImage/10.jpeg",
+        "desc": {
+            "line": [
+                {
+                    "desctitle": "Tamper-Proof Medical Records",
+                    "desc": "Securely store and manage patient records with blockchain’s immutability."
+                },
+                {
+                    "desctitle": "Interoperable Health Systems",
+                    "desc": "Enable seamless data sharing between healthcare providers with permissioned access."
+                },
+                {
+                    "desctitle": "Consent-Based Data Access",
+                    "desc": "Empower patients to control who accesses their medical history with blockchain-based permissions."
+                }
+            ]
+        },
+        "benefits": {
+            "title": "Benefits & Features",
+            "content": [
+                {
+                    "benetitle": "Data Accuracy",
+                    "desc": "Ensure real-time updates and consistency in medical records."
+                },
+                {
+                    "benetitle": "Regulatory Compliance",
+                    "desc": "Meet global healthcare data standards with blockchain security protocols."
+                },
+                {
+                    "benetitle": "Patient Empowerment",
+                    "desc": "Allow patients to manage and access their healthcare data securely."
+                }
+            ]
+        }
     }
-}
+]
