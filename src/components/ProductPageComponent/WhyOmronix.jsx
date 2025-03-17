@@ -17,7 +17,7 @@ const WhyOmronix = () => {
                         <img src="/ProductImage/img2.png" alt="" className="w-28 h-24 rounded-xl" />
                         <div className="choose_content flex flex-col gap-2">
                           <h1 className="text-lg font-bold">Integration</h1>
-                          <p className="text-sm text-textColor font-semibold text-right"> APIs to connect with CRM, ERP or Agentic AI Syste.</p>
+                          <p className="text-sm text-textColor font-semibold text-right"> APIs to connect with CRM, ERP or Agentic AI System.</p>
                         </div>
                       </div>
                 

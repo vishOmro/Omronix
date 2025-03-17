@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { Menu, X } from "lucide-react";
 import Logo from "../assets/logo_bg.png";
+import { FaCaretDown } from "react-icons/fa";
 
 const Navbar = () => {
   const [dropdown, setDropdown] = useState(false);
@@ -30,10 +31,10 @@ const Navbar = () => {
         <a href="/partners" className="hover:underline">Partners</a>
         <div className="relative dropdown-container">
           <button 
-            className="hover:underline" 
+            className="hover:underline flex gap-2 justify-center items-center" 
             onClick={() => setDropdown(!dropdown)}
           >
-            Product &#8595;
+            Product <FaCaretDown />
           </button>
           {dropdown && (
             <div className="absolute top-10 w-48 bg-mid-blue shadow-lg rounded text-black">
