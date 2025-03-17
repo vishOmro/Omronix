@@ -3,7 +3,9 @@
         "title": "AI-Powered Personalization",
         "overview": "Enhance customer experiences with AI-driven personalization, leveraging advanced algorithms to tailor content and interactions in real time.",
         "imgUrl": "/ProductImage/3.jpeg",
+
         "benifitURL":"/ProductImage/3.jpeg",
+
         "desc": {
             "line": [
                 {
@@ -40,7 +42,7 @@
     },
     {
         "title": "AI-Powered Analytics",
-        "overview": "Leverage Agentic AI’s advanced analytics capabilities to extract valuable insights from large data sets, optimizing business strategies.",
+        "overview": "Leverage Agentic AI's advanced analytics capabilities to extract valuable insights from large data sets, optimizing business strategies.",
         "imgUrl": "/ProductImage/11.jpeg",
         "desc": {
             "line": [
@@ -78,7 +80,7 @@
     },
     {
         "title": "Automated Workflow Management",
-        "overview": "Streamline business operations with Agentic AI’s workflow automation, improving efficiency and reducing operational costs.",
+        "overview": "Streamline business operations with Agentic AI's workflow automation, improving efficiency and reducing operational costs.",
         "imgUrl": "/ProductImage/13.jpeg",
         "desc": {
             "line": [
