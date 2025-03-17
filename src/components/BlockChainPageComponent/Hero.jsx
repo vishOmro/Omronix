@@ -1,8 +1,9 @@
-
+import BlSolutions from './../blsolutions'
 
 const Hero = () => {
   return (
-     <div className="HeroSection w-full min-h-screen flex flex-col-reverse md:flex-row justify-center items-center gap-10 md:mt-0 mt-12 bg-[#1C1E33] text-white p-4">
+    <>
+     <div className="HeroSection w-full min-h-screen flex flex-col-reverse md:flex-row justify-center items-center gap-10 md:mt-0 mt-12 bg-white text-black p-4">
             <div className="left w-full md:p-10 p-6 relative bottom-10">
                 <h1 className="text-xl md:text-4xl font-bold">Blockchain Solutions <br />   
                 Build Trust, Security, and Efficiency
@@ -22,6 +23,9 @@ const Hero = () => {
                 <img src="/BlockchainImage/img1.png" alt="" className="md:w-96 w-72 rounded-xl"  />
             </div>
         </div>
+        
+        <BlSolutions />
+        </>
   )
 }
 

@@ -1,7 +1,9 @@
-
+import Solutions from './../solutions'
 
 const Hero = () => {
   return (
+    <>
+    
      <div className="HeroSection w-full min-h-screen flex flex-col-reverse md:flex-row justify-center items-center gap-10 md:mt-0 mt-12 bg-agenticColor text-white">
             <div className="left w-full md:p-10 p-4 relative bottom-10">
                 <h1 className="text-xl md:text-4xl font-bold">Agentic AI Solutions<br />   
@@ -22,6 +24,9 @@ const Hero = () => {
                 <img src="/AgenticAiImages/5.png" alt="" className="md:w-96 w-72 rounded-xl"  />
             </div>
         </div>
+
+        <Solutions/>
+    </>
   )
 }
 
