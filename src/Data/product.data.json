@@ -1,7 +1,97 @@
-[
-    {
-        "imgUrl": "",
-        "title": "AI-Powered Per",
-        "content": "Enhance customer experiences with AI-driven personalization, leveraging advanced algorithms to tailor content and interactions in real time."
+{
+    "SMSsol": {
+        "title": "SMS Solutions",
+        "CustomAI": [
+            {
+                "imgUrl": "",
+                "title": "OTP & Authentication",
+                "content": "Secure, time-sensitive one-time passwords for account verification and secure transactions. Enjoy high security with encryption, reducing the risk of fraud."
+            },
+            {
+                "imgUrl": "",
+                "title": "Transactional SMS",
+                "content": "Automated messages triggered by customer interactions such as order confirmations, shipping details, and account notifications. These messages are personalized and sent in real time to maintain high engagement."
+            },
+            {
+                "imgUrl": "",
+                "title": "Promotional SMS",
+                "content": "Engage your audience with targeted campaigns. Customize your messages using variables (like customer names) to make each communication personal."
+            }
+        ]
+    },
+    "Voice": {
+        "title": "Voice Services",
+        "CustomAI": [
+            {
+                "imgUrl": "",
+                "title": "Outbound Dialing",
+                "content": "Deliver pre-recorded voice messages quickly and reliably. Ideal for marketing  campaigns, alerts, and notifications. "
+            },
+            {
+                "imgUrl": "",
+                "title": "IVR Telephony",
+                "content": "Provide a self-service option for customers with an Interactive Voice Response  system that routes calls efficiently and gathers necessary information."
+            },
+            {
+                "imgUrl": "",
+                "title": "Missed Call Alerts",
+                "content": "Ensure no opportunity is lost by converting missed calls into actionable leads with  immediate follow-ups."
+            }
+        ]
+    },
+    "Email": {
+        "title": "Email Solutions",
+        "AIPowered": [
+            {
+                "imgUrl": "",
+                "title": "Transactional Emails",
+                "content": "Automatically triggered emails for activities such as password resets, invoices, and  account alerts. These emails are fully encrypted and designed to build trust and  reliability"
+            },
+            {
+                "imgUrl": "",
+                "title": "Promotional Email",
+                "content": "Creative, visually engaging emails designed to capture attention and drive  conversions. Utilize rich media, personalized content, and clear CTAs to boost  engagement."
+            }
+        ]
+    },
+    "Whatsapp": {
+        "title": "Whatsapp Bussiness API",
+        "AutomatedAI": [
+            {
+                "imgUrl": "",
+                "title": "Outbound Dialing",
+                "content": "Deliver pre-recorded voice messages quickly and reliably. Ideal for marketing  campaigns, alerts, and notifications."
+            },
+            {
+                "imgUrl": "",
+                "title": "Customer Support Automation",
+                "content": "Enhance customer support with AI-powered chatbots and virtual assistants that provide 24/7 service, reducing response times and improving satisfaction."
+            },
+            {
+                "imgUrl": "",
+                "title": "Multichannel Support",
+                "content": "Provide consistent support across multiple channels including web, mobile, and social media platforms."
+            }
+        ]
+    },
+    "CustomEng" :{
+        "title": "Customer Engagement",
+        "AutomatedAI": [
+            {
+                "imgUrl": "",
+                "title": "Outbound Dialing",
+                "content": "Deliver pre-recorded voice messages quickly and reliably. Ideal for marketing  campaigns, alerts, and notifications."
+            },
+            {
+                "imgUrl": "",
+                "title": "Customer Support Automation",
+                "content": "Enhance customer support with AI-powered chatbots and virtual assistants that provide 24/7 service, reducing response times and improving satisfaction."
+            },
+            {
+                "imgUrl": "",
+                "title": "Multichannel Support",
+                "content": "Provide consistent support across multiple channels including web, mobile, and social media platforms."
+            }
+        ]
     }
-]
+}
