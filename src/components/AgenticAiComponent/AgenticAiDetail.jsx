@@ -39,7 +39,7 @@ const ProductsDetail = () => {
               </ul>
             </div>
             <div className="right w-full bg-blue relative flex justify-center">
-              <img src="../../assets/aboutUsSection.png" alt="About Us" className="w-96" />
+              <img src={product.benifitURL} alt="About Us" className="w-96" />
             </div>
           </div>
         </div>
