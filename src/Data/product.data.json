@@ -1,7 +1,32 @@
 [
     {
         "imgUrl": "",
-        "title": "AI-Powered Per",
+        "title": "AI-Powered Personalization",
         "content": "Enhance customer experiences with AI-driven personalization, leveraging advanced algorithms to tailor content and interactions in real time."
+    },
+    {
+        "imgUrl": "",
+        "title": "Hyper-Personalized Recommendations",
+        "content": "Provide individualized recommendations based on user preferences, behaviors, and predictive analytics."
+    },
+    {
+        "imgUrl": "",
+        "title": "Hyper-Personalized Recommendations",
+        "content": "AI adapts to customer needs in real time, ensuring that every interaction feels tailored and relevant."
+    },
+    {
+        "imgUrl": "",
+        "title": "Task Automation",
+        "content": "Use AI to automate routine tasks, improving productivity and minimizing human error. "
+    },
+    {
+        "imgUrl": "",
+        "title": "Process Optimization",
+        "content": "AI-driven algorithms continuously optimize workflows, ensuring that processes are always running at peak efficiency.v fgnthn "
+    },
+    {
+        "imgUrl": "",
+        "title": "Hyper-Personalized Recommendations",
+        "content": "AI adapts to customer needs in real time, ensuring that every interaction feels tailored and relevant."
     }
 ]
