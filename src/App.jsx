@@ -11,6 +11,7 @@ import ContactUs from "./pages/ContactUs"
 import Product from "./pages/Product"
 import Blockchain from './pages/Blockchain'
 import AgenticAI from './pages/AgenticAI'
+import Solutions from './components/solutions'
 
 
 
@@ -22,7 +23,7 @@ function App() {
     <>
 
       <Navbar />
-
+      <Solutions/>
 
      <BrowserRouter>
     <Routes>

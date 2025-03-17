@@ -37,9 +37,9 @@ const Navbar = () => {
           </button>
           {dropdown && (
             <div className="absolute top-10 w-48 bg-mid-blue shadow-lg rounded text-black">
-              <a href="/product/communicationsolution" className="block px-4 py-2 hover:bg-blue-300">Communication Solution</a>
-              <a href="/product/blockchainsolution" className="block px-4 py-2 hover:bg-blue-300">Blockchain Technology</a>
-              <a href="/product/agenticaisolution" className="block px-4 py-2 hover:bg-blue-300">AI Agentic Solution</a>
+              <a href="/product/communicationsolution" className="block px-4 py-2 hover:bg-blue-300">Communication Solutions</a>
+              <a href="/product/blockchainsolution" className="block px-4 py-2 hover:bg-blue-300">Blockchain Solutions</a>
+              <a href="/product/agenticaisolution" className="block px-4 py-2 hover:bg-blue-300">Agentic AI Solutions</a>
             </div>
           )}
         </div>
