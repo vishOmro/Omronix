@@ -22,7 +22,7 @@ const Hero = () => {
                 <img src="/ProductImage/3.jpeg" alt="" className="md:w-96 w-72 rounded-xl"  />
             </div>
         </div>
-        <Solutions/>
+      
         </>
   )
 }

@@ -1,11 +1,10 @@
-import React from 'react'
 import Logo from './../assets/AgenAi.png'
 import Logo1 from '/BlockchainImage/bl1.png'
 import Logo2 from '/BlockchainImage/bl2.png'
 import Logo3 from '/BlockchainImage/bl3.png'
 import Logo4 from '/BlockchainImage/bl4.png'
 
-function solutions(con1,image1,image2,image3,image4,con2,con3,con4,hd1,hd2,hd3,hd4) {
+function solutions() {
   return (
     <div className='w-full min-h-screen bg-[#1c1e33] flex flex-col gap-10 justify-center items-center'>
         <h1 className='text-2xl font-bold text-white'>Agentic AI Solutions</h1>

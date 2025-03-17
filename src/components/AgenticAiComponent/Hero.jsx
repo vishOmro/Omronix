@@ -1,4 +1,4 @@
-import Solutions from './../solutions'
+
 
 const Hero = () => {
   return (
@@ -25,7 +25,7 @@ const Hero = () => {
             </div>
         </div>
 
-        <Solutions/>
+       
     </>
   )
 }
