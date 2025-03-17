@@ -2,32 +2,31 @@
 
 const WhyOmronix = () => {
   return (
-    <div className="AboutSection w-full min-h-screen flex md:flex-row-reverse flex-col-reverse justify-center items-center relative gap-10 bg-mid-blue">
-              <div className="left w-full md:p-10 p-5">
+    <div className="AboutSection w-full min-h-screen flex  flex-col justify-center items-center relative gap-10 bg-mid-blue">
+
              <h1 className="text-lg md:text-xl font-bold">Why Choose Omronix?</h1>
-     
-             <p className="mt-4 md:w-3/4 text-sm md:text-base text-textColor font-semibold">
-                 <ul>
-                 <li  className="mt-2">
-                  <p className="text-black">Expertise: </p>A team of seasoned professionals with extensive experience in blockchain technology.
-                </li>
-                <li  className="mt-2">
-                  <p className="text-black">Innovation:</p> Continuous investment in research and development to deliver state-of-the-art solutions.
-                </li>
-                <li  className="mt-2">
-                  <p className="text-black">Customization: </p> Tailored services that align with your specific business needs and objectives
-                </li>
-                <li  className="mt-2">
-                  <p className="text-black">Support:</p>Dedicated support throughout your blockchain journey, from consultation to implementation and beyond.
-                </li>
-                    </ul>
-                    </p>
-     
-                
+
+             <div className="container w-3/4 flex gap-10 justify-around">
+              <div className="cardContainer flex flex-col gap-4 w-56 h-66 text-center ">
+                <img src="/AgenticAiImages/1.jpg" alt="" className="rounded-xl" />
+                <h2 className="font-bold">Ethical AI</h2>
+                <p className="text-sm text-textColor font-semibold">Ensures bias mitigation for fair and transparent decision-making.
+                Implements explainable AI for accountability and trust.</p>
+              </div>
+              <div className="cardContainer flex flex-col gap-4 w-56 h-66 text-center ">
+                <img src="/AgenticAiImages/1.jpg" alt="" className="rounded-xl" />
+                <h2 className="font-bold">Ethical AI</h2>
+                <p className="text-sm text-textColor font-semibold">Ensures bias mitigation for fair and transparent decision-making.
+                Implements explainable AI for accountability and trust.</p>
+              </div>
+              <div className="cardContainer flex flex-col gap-4 w-56 h-66 text-center ">
+                <img src="/AgenticAiImages/1.jpg" alt="" className="rounded-xl" />
+                <h2 className="font-bold">Ethical AI</h2>
+                <p className="text-sm text-textColor font-semibold">Ensures bias mitigation for fair and transparent decision-making.
+                Implements explainable AI for accountability and trust.</p>
+              </div>
              </div>
-              <div className="right w-full bg-blue relative flex justify-center">
-                         <img src="/ProductImage/whyus.webp" alt="WhyOmronix"  className="md:w-96 w-72  mt-4 md:mt-0"/>
-                     </div>
+     
          </div>
   )
 }

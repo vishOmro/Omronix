@@ -13,6 +13,7 @@ body {
     --color-red: red;
     --color-background-blue: rgba(198, 231, 255, 0.18);
     --color-textColor: #726363;
+    --color-agenticColor: #021927;
 }
 
 input {
