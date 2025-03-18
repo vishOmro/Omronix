@@ -1,7 +1,7 @@
-import Services from "../components/AgenticAiComponent/services"
-import Hero from "../components/AgenticAiComponent/Hero"
-import WhyOmronix from "../components/AgenticAiComponent/WhyOmronix"
-import Solutions from "../components/solutions"
+import Services from "../components/AgenticAiComponent/services.jsx"
+import Hero from "../components/AgenticAiComponent/Hero.jsx"
+import WhyOmronix from "../components/AgenticAiComponent/WhyOmronix.jsx"
+import Solutions from "../components/solutions.jsx"
 
 const Blockchain = () => {
   return (

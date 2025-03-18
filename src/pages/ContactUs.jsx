@@ -1,6 +1,6 @@
 
 import contactImage from "../assets/contactus.png"
-import ContactDropdown from "../components/contactDropdown"
+import ContactDropdown from "../components/contactDropdown.jsx"
 
 const ContactUs = () => {
   return (
