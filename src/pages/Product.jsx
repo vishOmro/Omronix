@@ -1,8 +1,8 @@
 
 import Hero from "../components/ProductPageComponent/Hero.jsx"
 import WhyChooseUs from "../components/ProductPageComponent/WhyOmronix.jsx"
+import ProductsDetail from "../components/ProductPageComponent/producsdtsDetail.jsx"
 import ProductSolutions from "../components/ProductPageComponent/productSolutions.jsx"
-import productsDetail from "../../components/ProductPageComponent/productsDetail.jsx";
 
 
 const Product = () => {

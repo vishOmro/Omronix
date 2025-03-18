@@ -1,4 +1,4 @@
-import ProductDescCard from "../productDescCard";
+import ProductDescCard from "../productDescCard.jsx";
 
 
 const Data = [ {
