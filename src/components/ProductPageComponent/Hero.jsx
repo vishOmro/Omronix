@@ -1,4 +1,4 @@
-import Solutions from './../solutions'
+
 
 const Hero = () => {
   return (

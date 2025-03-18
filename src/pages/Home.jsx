@@ -1,7 +1,6 @@
 import AboutUsSection from "../components/HomePageComponent/AboutUsSection.jsx"
 import HeroSection from "../components/HomePageComponent/heroSection.jsx"
-import KeyValueProposition from "../components/HomePageComponent/keyValueProposition.jsx"
-
+import KeyValueProposition from "../components/HomePageComponent/KeyValueProposition.jsx"
 import Product from "../components/HomePageComponent/Product.jsx"
 import ProductSnapShot from "../components/HomePageComponent/ProductSnapShot.jsx"
 // import Card from "../components/Card"
