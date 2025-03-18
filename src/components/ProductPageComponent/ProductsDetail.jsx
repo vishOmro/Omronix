@@ -55,7 +55,7 @@ const ProductsDetail = () => {
     <div className="w-full flex flex-col items-center gap-12 min-h-screen justify-center">
     <h1 className="text-2xl font-bold pt-5">Our Services</h1>
     <div className="w-full text-center bg-[url(/ProductImage/bg1.png)] p-10">        
-    <h2 className="text-xl font-bold mb-7">SMS SOLUTIONS</h2>
+    <h2 className="text-2xl underline font-bold mb-7">SMS SOLUTIONS</h2>
     <div className="w-full flex justify-around items-center gap-10">
       {
         Data.map((data, index) => (
@@ -71,7 +71,7 @@ const ProductsDetail = () => {
     </div>
 
     <div className="w-full text-center bg-[url(/ProductImage/bg2.png)] p-10">        
-    <h2 className="text-xl font-bold mb-7">VOICE SERVICES</h2>
+    <h2 className="text-2xl underline font-bold mb-7">VOICE SERVICES</h2>
     <div className="w-full flex justify-around items-center gap-10">
       {
         Data2.map((data, index) => (
@@ -87,7 +87,7 @@ const ProductsDetail = () => {
     </div>
 
     <div className="w-full text-center bg-[url(/ProductImage/bg3.png)] p-10">        
-    <h2 className="text-xl font-bold mb-7">Email Solutions</h2>
+    <h2 className="text-2xl underline font-bold mb-7">Email Solutions</h2>
     <div className="w-full flex justify-around items-center gap-10">
       {
         Data3.map((data, index) => (
@@ -103,7 +103,7 @@ const ProductsDetail = () => {
     </div>
 
     <div className="w-full text-center bg-[url(/ProductImage/bg4.png)] p-10">        
-    <h2 className="text-xl font-bold mb-7">Whatsapp Business API</h2>
+    <h2 className="text-2xl underline font-bold mb-7">Whatsapp Business API</h2>
     <div className="w-full flex justify-around items-center gap-10">
       {
         Data.map((data, index) => (
@@ -120,7 +120,7 @@ const ProductsDetail = () => {
 
     
     <div className="w-full text-center bg-[url(/ProductImage/bg5.png)] p-10">        
-    <h2 className="text-xl font-bold mb-7">Customer Engagement</h2>
+    <h2 className="text-2xl underline font-bold mb-7">Customer Engagement</h2>
     <div className="w-full flex justify-around items-center gap-10">
       {
         Data.map((data, index) => (

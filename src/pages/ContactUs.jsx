@@ -5,9 +5,9 @@ import ContactDropdown from "../components/contactDropdown"
 const ContactUs = () => {
   return (
     <div>
-        <div className="contact_container w-full gap-10 flex justify-center items-center align-middle rounded-b-2xl bg-light-blue ">
+        <div className="contact_container w-full gap-10 flex justify-center items-center align-middle rounded-b-2xl bg-gradient-to-tr from-white to-blue-200 ">
             <div className="contact_left w-full md:p-10 p-5">
-                <h1 className=" text-lg md:text-xl font-bold">Contact Us</h1>
+                <h1 className=" text-2xl md:text-xl font-bold">Contact Us</h1>
                 <form action="" className="mt-5 text-sm md:text-base">
                     <div className="name_container flex md:gap-15 gap-2 flex-wrap md:flex-nowrap">
                         <div className="input_container flex flex-col gap-2"> 
