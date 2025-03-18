@@ -1,7 +1,7 @@
 
 import Hero from "../components/ProductPageComponent/Hero.jsx"
 import WhyChooseUs from "../components/ProductPageComponent/WhyOmronix.jsx"
-import ProductsDetail from "../components/ProductPageComponent/ProductsDetail.jsx"
+import ProductsDetail from "../components/ProductPageComponent/roductsDetail.jsx"
 import ProductSolutions from "../components/ProductPageComponent/productSolutions.jsx"
 
 

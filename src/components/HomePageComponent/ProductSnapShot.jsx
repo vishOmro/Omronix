@@ -1,4 +1,4 @@
-import ProductSnapshotImg from "../../assets/ProductSnapshot.png"
+import ProductSnapshotImg from "../../assets/productSnapshot.png"
 const ProductSnapShot = () => {
   return (
      <div className="AboutSection w-full min-h-screen  relative gap-10 bg-mid-blue mt-4 md:mt-0">
