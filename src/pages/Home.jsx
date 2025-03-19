@@ -2,7 +2,7 @@ import AboutUsSection from "../components/HomePageComponent/AboutUsSection.jsx"
 import HeroSection from "../components/HomePageComponent/heroSection.jsx"
 import Key from "../components/HomePageComponent/keyValueProposition.jsx"
 import Product from "../components/HomePageComponent/Product.jsx"
-import ProductSnapShot from "../components/HomePageComponent/ProductSnapShot.jsx"
+// import ProductSnapShot from "../components/HomePageComponent/ProductSnapShot.jsx"
 // import Card from "../components/Card"
 // import Logo from "../assets/sample.webp"
 
@@ -14,7 +14,7 @@ const Home = () => {
     <HeroSection />
     <AboutUsSection />
     <Key />
-    <ProductSnapShot />
+    {/* <ProductSnapShot /> */}
     <Product />
 
   </div>

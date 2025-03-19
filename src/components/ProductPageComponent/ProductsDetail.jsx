@@ -47,97 +47,104 @@ const Data3 = [ {
 
 ]
 
+const wpapi = [ {
+  "imgUrl": "/TransLogo.png",
+  "title": "Interactive Notifications",
+  "content": "Engage your customers with clickable buttons, images, and rich media that drive immediate responses."
+},
+{
+  "imgUrl": "/TransLogo.png",
+  "title": "Automated Bots",
+  "content": "Provide 24/7 support and streamline customer interactions with customizable chatbots."
+},
+{
+  "imgUrl": "/TransLogo.png",
+  "title": "Custom Branding",
+  "content": "Enhance customer trust by integrating your logo, tagline,and personalized welcome messages directly into the chat interface."
+},
+
+]
+
+const customeng = [ {
+  "imgUrl": "/TransLogo.png",
+  "title": "Unified Dashboard",
+  "content": "Monitor all your campaigns in one place with detailed analytics and real-time reporting."
+},
+{
+  "imgUrl": "/TransLogo.png",
+  "title": "Smart Algorithms",
+  "content": "Ensure that your messages are optimized for maximum reach and engagement."
+},
+{
+  "imgUrl": "/TransLogo.png",
+  "title": "Multimedia Messaging",
+  "content": "Add a personal touch with images, videos, and interactive elements that make your campaigns memorable"
+},
+
+]
+
 
 
 
 const ProductsDetail = () => {
   return (
-    <div className="w-full flex flex-col items-center gap-12 min-h-screen justify-center">
-    <h1 className="text-2xl font-bold pt-5">Our Services</h1>
-    <div className="w-full text-center bg-[url(/ProductImage/bg1.png)] p-10">        
-    <h2 className="text-2xl underline font-bold mb-7">SMS SOLUTIONS</h2>
-    <div className="w-full flex justify-around items-center gap-10">
-      {
-        Data.map((data, index) => (
-          <ProductDescCard 
-            key={index} 
-            imgUrl={data.imgUrl} 
-            title={data.title} 
-            content={data.content}  
-          />
-        ))
-      }
-    </div>
-    </div>
+    <div className="w-full flex flex-col items-center gap-12 min-h-screen justify-center px-4">
+      <h1 className="text-2xl md:text-3xl font-bold pt-5">Our Services</h1>
 
-    <div className="w-full text-center bg-[url(/ProductImage/bg2.png)] p-10">        
-    <h2 className="text-2xl underline font-bold mb-7">VOICE SERVICES</h2>
-    <div className="w-full flex justify-around items-center gap-10">
-      {
-        Data2.map((data, index) => (
-          <ProductDescCard 
-            key={index} 
-            imgUrl={data.imgUrl} 
-            title={data.title} 
-            content={data.content}  
-          />
-        ))
-      }
-    </div>
-    </div>
+      {/* SMS Solutions */}
+      <div className="w-full text-center bg-[url(/ProductImage/bg1.png)] p-4 md:p-10">        
+        <h2 className="text-xl md:text-2xl underline font-bold mb-5 md:mb-7">SMS SOLUTIONS</h2>
+        <div className="grid grid-cols-1 md:ml-0 ml-6    sm:grid-cols-2 lg:grid-cols-3 gap-6 ">
+          {Data.map((data, index) => (
+            <ProductDescCard key={index} {...data} />
+          ))}
+        </div>
+      </div>
 
-    <div className="w-full text-center bg-[url(/ProductImage/bg3.png)] p-10">        
-    <h2 className="text-2xl underline font-bold mb-7">Email Solutions</h2>
-    <div className="w-full flex justify-around items-center gap-10">
-      {
-        Data3.map((data, index) => (
-          <ProductDescCard 
-            key={index} 
-            imgUrl={data.imgUrl} 
-            title={data.title} 
-            content={data.content}  
-          />
-        ))
-      }
-    </div>
-    </div>
+      {/* Voice Services */}
+      <div className="w-full text-center bg-[url(/ProductImage/bg2.png)] p-4 md:p-10">        
+        <h2 className="text-xl md:text-2xl underline font-bold mb-5 md:mb-7">VOICE SERVICES</h2>
+        <div className="grid grid-cols-1 md:ml-0 ml-6  sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          {Data2.map((data, index) => (
+            <ProductDescCard key={index} {...data} />
+          ))}
+        </div>
+      </div>
 
-    <div className="w-full text-center bg-[url(/ProductImage/bg4.png)] p-10">        
-    <h2 className="text-2xl underline font-bold mb-7">Whatsapp Business API</h2>
-    <div className="w-full flex justify-around items-center gap-10">
-      {
-        Data.map((data, index) => (
-          <ProductDescCard 
-            key={index} 
-            imgUrl={data.imgUrl} 
-            title={data.title} 
-            content={data.content}  
-          />
-        ))
-      }
-    </div>
-    </div>
+      {/* WhatsApp Business API */}
+      <div className="w-full text-center bg-[url(/ProductImage/bg3.png)] p-4 md:p-10">        
+        <h2 className="text-xl md:text-2xl underline font-bold mb-5 md:mb-7">WhatsApp Business API</h2>
+        <div className="grid grid-cols-1 md:ml-0 ml-6  sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          {wpapi.map((data, index) => (
+            <ProductDescCard key={index} {...data} />
+          ))}
+        </div>
+      </div>
 
-    
-    <div className="w-full text-center bg-[url(/ProductImage/bg5.png)] p-10">        
-    <h2 className="text-2xl underline font-bold mb-7">Customer Engagement</h2>
-    <div className="w-full flex justify-around items-center gap-10">
-      {
-        Data.map((data, index) => (
-          <ProductDescCard 
-            key={index} 
-            imgUrl={data.imgUrl} 
-            title={data.title} 
-            content={data.content}  
-          />
-        ))
-      }
-    </div>
-    </div>
-    
+      {/* Email Solutions */}
+      <div className="w-full text-center bg-[url(/ProductImage/bg4.png)] p-4 md:p-10">        
+        <h2 className="text-xl md:text-2xl underline font-bold mb-5 md:mb-7">Email Solutions</h2>
+        <div className="grid grid-cols-1 md:ml-0 ml-6  sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          {Data3.map((data, index) => (
+            <ProductDescCard key={index} {...data} />
+          ))}
+        </div>
+      </div>
 
-  </div>
+      {/* Customer Engagement */}
+      <div className="w-full text-center bg-[url(/ProductImage/bg5.png)] p-4 md:p-10 mb-5">        
+        <h2 className="text-xl md:text-2xl underline font-bold mb-5 md:mb-7">Customer Engagement</h2>
+        <div className="grid grid-cols-1 md:ml-0 ml-6  sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          {customeng.map((data, index) => (
+            <ProductDescCard key={index} {...data} />
+          ))}
+        </div>
+      </div>
+
+    </div>
   );
 };
+
+
 
 export default ProductsDetail;

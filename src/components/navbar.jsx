@@ -28,7 +28,7 @@ const Navbar = () => {
       {/* Desktop Navigation */}
       <div className="hidden md:flex gap-8 text-md font-semibold items-center">
         <a href="/" className="hover:underline">Home</a>
-        <a href="/partners" className="hover:underline">Partners</a>
+        <a href="/partners" className="hover:underline">About Us</a>
         <div className="relative dropdown-container">
           <button 
             className="hover:underline flex gap-2 justify-center items-center" 

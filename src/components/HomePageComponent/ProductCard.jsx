@@ -8,8 +8,8 @@ const ProductCard = ({image, name, link, overview}) => {
      md:h-60 w-34 h-34'/>
     <div className='p-2 font-semibold'>
        {name}
-       <p className="text-sm font-normal text-grey mt-2">{overview}</p>
-       <p className="text-textColor text-sm mt-2"><a href={link}>View more {"->"}</a></p>
+       <p className="text-sm font-semibold text-textColor text-grey mt-2 ">{overview}</p>
+       <p className=" text-sm mt-2"><a href={link}>View more {"->"}</a></p>
     </div>
     
 
