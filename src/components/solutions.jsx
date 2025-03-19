@@ -1,7 +1,7 @@
 import Logo from './../assets/AgenAi.png'
 // import Logo1 from '/BlockchainImage/bl1.png'
 
-import Logo2 from '/BlockchainImage/bl2.png'
+import Logo2 from '/BlockchainImage/bl2.jpg'
 import Logo3 from '/BlockchainImage/bl3.png'
 import Logo4 from '/BlockchainImage/bl4.png'
 
