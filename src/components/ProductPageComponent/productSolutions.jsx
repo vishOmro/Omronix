@@ -1,8 +1,8 @@
-import Logo from '../../assets/AgenAi.png'
-// import Logo1 from '/BlockchainImage/bl1.png'
-import Logo2 from '/BlockchainImage/bl2.png'
-import Logo3 from '/BlockchainImage/bl3.png'
-import Logo4 from '/BlockchainImage/bl4.png'
+
+import Logo from '/ProductImage/4.png'
+import Logo2 from '/ProductImage/5.webp'
+import Logo3 from '/ProductImage/16.png'
+import Logo4 from '/ProductImage/1.png'
 
 const productSolutions = () => {
   return (
@@ -11,7 +11,7 @@ const productSolutions = () => {
             <div className='bg-white w-3/4 h-3/4 rounded-2xl text-black flex '>
     
                 <div className='w-1/2 flex flex-col p-5'>
-                <img src={Logo} alt="img" />
+                <img src={Logo} alt="img" className='h-70' />
                 <span className='font-bold text-xl p-2'>SMS SOLUTIONS</span>
                 <p className='text-textColor font-semibold '>
                 Enhance customer experiences with AI-driven personalization, leveraging advanced algorithms to tailor content and interactions in real time.  
