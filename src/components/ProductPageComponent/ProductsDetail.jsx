@@ -2,24 +2,24 @@ import ProductDescCard from "../productDescCard.jsx";
 
 
 const Data = [ {
-  "imgUrl": "/TransLogo.png",
+  "imgUrl": "/otp.png",
   "title": "OTP & Authentication",
   "content": "Secure, time-sensitive one-time passwords for account verification and secure transactions. Enjoy high security with encryption, reducing the risk of fraud."
 },
 {
-  "imgUrl": "/TransLogo.png",
+  "imgUrl": "/Trans.png",
   "title": "Transactional SMS",
   "content": "Automated messages triggered by customer interactions such as order confirmations, shipping details, and account notifications. These messages are personalized and sent in real time to maintain high engagement."
 },
 {
-  "imgUrl": "/TransLogo.png",
+  "imgUrl": "/Promo.png",
   "title": "Promotional SMS",
   "content": "Engage your audience with targeted campaigns. Customize your messages using variables (like customer names) to make each communication personal."
 },
 ]
 
 const Data2 = [ {
-  "imgUrl": "/TransLogo.png",
+  "imgUrl": "../TransLogo.png",
   "title": "Outbound Dialing",
   "content": "Deliver pre-recorded voice messages quickly and reliably. Ideal for marketing  campaigns, alerts, and notifications. "
 },
@@ -89,7 +89,7 @@ const customeng = [ {
 const ProductsDetail = () => {
   return (
     <div className="w-full flex flex-col items-center gap-12 min-h-screen justify-center px-4">
-      <h1 className="text-2xl md:text-3xl font-bold pt-5">Our Services</h1>
+      <h1 className="text-2xl md:text-3xl font-bold pt-10">Our Services</h1>
 
       {/* SMS Solutions */}
       <div className="w-full text-center bg-[url(/ProductImage/bg1.png)] p-4 md:p-10">        

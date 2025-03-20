@@ -10,7 +10,8 @@ const AboutUsSection = () => {
              <p className="mt-4 md:w-3/4 text-sm md:text-base text-textColor font-semibold">Omronix is transforming CPaaS with secure, scalable communication solutions. Founded in 2024, we simplify complex communications. Launching in 2025, our platform includes bulk messaging, voice, email, and AI tools. We strive to be the most trusted partner in digital communication. Our mission: enhance customer interactions with secure, user-friendly solutions. Driven by innovation, reliability, and transparency, our expert team builds lasting relationships.</p>
  
              <div className="buttonSection flex gap-10 mt-6">
-             <button className=" rounded-xl px-3 py-2  md:px-5 md:py-2  font-semibold cursor-pointer bg-black text-white">READ MORE ABOUT US</button>
+             <button className=" rounded-xl px-3 py-2  md:px-5 md:py-2  font-semibold cursor-pointer bg-black text-white">
+             <a href="/aboutus" className="block px-4 py-2"> READ MORE ABOUT US </a></button>
  
              
              </div>

@@ -1,16 +1,16 @@
 import ProductDescCard from "../productDescCard";
 const Data = [ {
-  "imgUrl": "/TransLogo.png",
+  "imgUrl": "/img2.webp",
   "title": "Public Blockchain",
   "content": "Develop Apps on Ethereum, Solana, etc.Private Blockchains: Permissioned networks (Hyperledger, Corda).Consortium Blockchains: Cross-organization collaboration."
 },
 {
-  "imgUrl": "/TransLogo.png",
+  "imgUrl": "/img3.webp",
   "title": "Hyper-Personalized Recommendations",
   "content": "Provide individualized recommendations based on user preferences, behaviors, and predictive analytics."
 },
 {
-  "imgUrl": "/TransLogo.png",
+  "imgUrl": "/img1.webp",
   "title": "Real-Time Adaptation",
   "content": "AI adapts to customer needs in real time, ensuring that every interaction feels tailored and relevant."
 },
@@ -71,7 +71,7 @@ const Data4 = [ {
 const ProductsDetail = () => {
   return (
     <div className="w-full flex flex-col items-center gap-12 min-h-screen justify-center px-4">
-    <h1 className="text-2xl md:text-3xl font-bold pt-5">Our Services</h1>
+    <h1 className="text-2xl md:text-3xl font-bold pt-10">Our Services</h1>
     <div className="w-full text-center bg-[url(/BlockchainImage/bg.png)] p-10">        
     <h2 className="text-xl md:text-2xl underline font-bold mb-5 md:mb-7">BLOCKCHAIN SOLUTIONS</h2>
     <div className="grid grid-cols-1    sm:grid-cols-2 lg:grid-cols-3 gap-6 ">

@@ -28,7 +28,7 @@ const Navbar = () => {
       {/* Desktop Navigation */}
       <div className="hidden md:flex gap-8 text-md font-semibold items-center">
         <a href="/" className="hover:underline">Home</a>
-        <a href="/partners" className="hover:underline">About Us</a>
+        <a href="/aboutus" className="hover:underline">About Us</a>
         <div className="relative dropdown-container">
           <button 
             className="hover:underline flex gap-2 justify-center items-center" 
@@ -61,7 +61,7 @@ const Navbar = () => {
       {mobileMenu && (
         <div className="absolute top-20 left-0 w-full bg-mid-blue flex flex-col items-center text-md font-semibold shadow-lg p-4 md:hidden">
           <a href="/" className="py-2 hover:underline" onClick={() => setMobileMenu(false)}>Home</a>
-          <a href="/partners" className="py-2 hover:underline" onClick={() => setMobileMenu(false)}>Partners</a>
+          <a href="/aboutus" className="py-2 hover:underline" onClick={() => setMobileMenu(false)}>About Us</a>
           <div className="relative w-full text-center dropdown-container">
             <button 
               className="w-full py-2 hover:underline" 
