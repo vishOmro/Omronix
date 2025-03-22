@@ -34,13 +34,13 @@ const Navbar = () => {
             className="hover:underline flex gap-2 justify-center items-center" 
             onClick={() => setDropdown(!dropdown)}
           >
-            Product <FaCaretDown />
+            Services <FaCaretDown />
           </button>
           {dropdown && (
             <div className="absolute top-10 w-48 bg-mid-blue shadow-lg rounded text-black">
               <a href="/product/communicationsolution" className="block px-4 py-2 hover:bg-blue-300">Communication Solutions</a>
               <a href="/product/blockchainsolution" className="block px-4 py-2 hover:bg-blue-300">Blockchain Solutions</a>
-              <a href="/product/agenticaisolution" className="block px-4 py-2 hover:bg-blue-300">Agentic AI Solutions</a>
+              {/* <a href="/product/agenticaisolution" className="block px-4 py-2 hover:bg-blue-300">Agentic AI Solutions</a> */}
             </div>
           )}
         </div>

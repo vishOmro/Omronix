@@ -20,7 +20,7 @@ const Hero = () => {
             </div>
             </div>
             <div className="right w-full flex justify-center relative bottom-10">
-                <img src="/BlockchainImage/img1.jpg" alt="" className="md:w-96 w-72 rounded-xl"  />
+                <img src="/BlockchainImage/img.jpg" alt="" className="md:w-96 w-72 rounded-xl"  />
             </div>
         </div>
         

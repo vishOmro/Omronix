@@ -1,8 +1,9 @@
 import { useState } from "react";
 import Logo1 from "/BlockchainImage/bl1.png";
 import Logo2 from "/BlockchainImage/bl2.jpg";
-import Logo3 from "/BlockchainImage/bl3.png";
-import Logo4 from "/BlockchainImage/bl4.png";
+import Logo3 from "/BlockchainImage/bl3.jpg";
+import Logo4 from "/BlockchainImage/bl4.jpg";
+import Logo5 from "/BlockchainImage/bl5.png";
 
 const BlockchainSolutions = () => {
   // State for the left container content
@@ -33,6 +34,12 @@ const BlockchainSolutions = () => {
       description:
         "Supply Chain Management: Track goods from source to shelf with immutable logs.",
     },
+    {
+      image: Logo5,
+      title: "Blockchain As Solution",
+      description:
+        "BaaS enables businesses to develop, host, and deploy blockchain applications without managing the underlying infrastructure.",
+    },
   ]);
 
   // Swap function
@@ -50,20 +57,20 @@ const BlockchainSolutions = () => {
 
       <div className="left_container  md:p-10 md:m-7 m-2 bg-white md:w-3/4 md:h-3/4 rounded-2xl text-black flex md:flex-row flex-col ">
         <div className="md:w-1/2 flex flex-col p-5">
-          <img src={leftContent.image} alt="img" className="w-94" />
-          <span className="font-bold text-xl p-2">{leftContent.title}</span>
-          <p className="text-textColor font-semibold">{leftContent.description}</p>
+          <img src={leftContent.image} alt="img" className="w-94 md:h-60 rounded-2xl object-fit" />
+          <span className="font-bold text-xl p-2 mt-2">{leftContent.title}</span>
+          <p className="text-textColor font-semibold ml-2">{leftContent.description}</p>
         </div>
 
-        <div className="right_container md:w-1/2 flex md:flex-col flex-wrap md:flex-nowrap items-center justify-center">
+        <div className="right_container md:w-1/2 flex md:flex-col flex-wrap md:flex-nowrap ">
           {clickableContent.map((content, index) => (
             <div
               key={index}
               className="clickable_container flex  p-4 gap-4 cursor-pointer hover:bg-gray-200 transition md:flex-row flex-col flex-wrap md:flex-nowrap  md:w-full w-1/2"
               onClick={() => handleSwap(index)}
             >
-              <img src={content.image} alt="img" className="md:w-44 p-2" />
-              <div className="leading-6 flex items-center justify-center  flex-col gap-2">
+              <img src={content.image} alt="img" className="w-50 h-35 rounded-2xl object-fit p-2" />
+              <div className="leading-6 flex flex-col gap-2">
                 <span className="font-bold md:text-base text-sm">{content.title}</span>
                 <p className="text-textColor text-sm font-semibold">{content.description}</p>
               </div>

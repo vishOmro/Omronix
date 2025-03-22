@@ -45,7 +45,7 @@ const ContactUs = () => {
 
                         <div className="input_container flex flex-col gap-2 mt-4"> 
                         <h3 className="font-semibold">Remark</h3>
-                        <input type="text" name="" id="" placeholder="How can we help you?" className="md:w-75 w-64 border-1 border-gray-400 mr-20 text-sm" />
+                        <input type="text" name="" id="" placeholder="How can we help you?" className="md:w-100 h-40 border-1 border-gray-400 mr-20 text-sm" />
                         </div>
 
                         <div className="gap-2 mt-4 bg-black text-white w-fit px-15 py-2 rounded-xl cursor-pointer">

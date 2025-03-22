@@ -3,7 +3,7 @@ import AboutUsImg from "../../assets/aboutUsSection.png"
 
 const AboutUsSection = () => {
     return (
-        <div className="AboutSection w-full min-h-screen flex md:flex-row-reverse flex-col-reverse justify-center items-center relative gap-10 bg-mid-blue">
+        <div className="AboutSection w-full min-h-screen flex md:flex-row-reverse flex-col-reverse justify-center items-center relative gap-10 bg-blue-100">
             <div className="left w-full md:p-10 p-5">
                 <h1 className="text-xl md:text-xl font-bold">ABOUT US</h1>
 
