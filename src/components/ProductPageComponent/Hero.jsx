@@ -3,7 +3,7 @@
 const Hero = () => {
   return (
     <>
-     <div className="HeroSection w-full min-h-screen flex flex-col-reverse md:flex-row justify-center items-center gap-10">
+     <div className="HeroSection w-full min-h-screen flex flex-col-reverse md:flex-row justify-center items-center  bg-gradient-to-br from-white to-blue-200 bg-white text-black gap-10">
             <div className="left w-full md:p-10 p-4 relative bottom-10 flex flex-col gap-2 md:block">
                 <h1 className="text-2xl md:text-4xl font-bold">Communication Solutions <br />  
             Seamlessly Connect, Engage, and Grow   
